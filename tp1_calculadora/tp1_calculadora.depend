@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1554412121 source:c:\zanoni\tp1_calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"calculadora.h"
+
+1554412121 c:\zanoni\tp1_calculadora\calculadora.h
+
+1554482690 source:c:\zanoni\tp1_calculadora\calculadora.c
+
