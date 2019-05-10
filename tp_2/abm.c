@@ -3,7 +3,11 @@
 #include <stdlib.h>
 #include "abm.h"
 #include "utn.h"
-
+/** \brief  To indicate that all position in the array are empty
+* \param array Empleado arrayEmpleado
+* \param size int  len
+* \return int Return (-1) Error ,(0) Ok
+*/
 int emp_initEmpleado(Empleado *arrayEmpleado, int len)
 {
     int i;
@@ -19,7 +23,11 @@ int emp_initEmpleado(Empleado *arrayEmpleado, int len)
     return retorno;
 
 }
-
+/** \brief
+* \param array Empleado arrayEmpleado
+* \param size int  len
+* \return int Return (-1) Error ,(0) Ok
+*/
 int emp_addEmpleado(Empleado *arrayEmpleado,int len, int *Id,char *nombre,char *apellido,float salario,int sector)
 {
     int retorno=-1;

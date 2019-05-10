@@ -68,3 +68,27 @@
 	<stdlib.h>
 	"utn.h"
 
+1557499147 source:/home/cintia/zanoni/tp_laboratorio_1/tp_2/abm.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"abm.h"
+	"utn.h"
+
+1557499147 /home/cintia/zanoni/tp_laboratorio_1/tp_2/abm.h
+
+1557499147 /home/cintia/zanoni/tp_laboratorio_1/tp_2/utn.h
+
+1557499147 source:/home/cintia/zanoni/tp_laboratorio_1/tp_2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"abm.h"
+	"utn.h"
+	<string.h>
+
+1557499147 source:/home/cintia/zanoni/tp_laboratorio_1/tp_2/utn.c
+	<string.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+
