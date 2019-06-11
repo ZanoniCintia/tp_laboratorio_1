@@ -40,7 +40,7 @@ int getName (char* msg,char* msgError,int minimo,int maximo,int reintentos,char*
     {
         if(!getString(msg,msgError,minimo,maximo,reintentos,bufferStr))
         {
-            if(isValidName(bufferStr))
+            if(!isValidName(bufferStr))
             {
                 strncpy(resultado,bufferStr,maximo);
                 retorno = 0;

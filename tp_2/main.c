@@ -43,7 +43,7 @@ int main()
 
     do
     {
-        printf("1-Alta de empleado\n");
+        printf("\n1-Alta de empleado\n");
         printf("2-Baja de empleado\n");
         printf("3-Modificacion de datos\n");
         printf("4-visualizar informe de personal\n");
@@ -57,9 +57,9 @@ int main()
                 && !getName("ingrese apellido :","error, reingrese apellido",2,51,3,apellido)
                 && !getFloat("ingrese salario :","error, reingrese salario",1,50000,3,&salario)
                 && !getInt("ingrese sector:\n 1.ventas\n 2.cajas \n 3.administracion \n 4.seguridad","error, ingrese un sector valido",1,4,3,&sector)
-                && emp_addEmpleado(lista,PERSONAL,&id,nombre,apellido,salario,sector))
+                && !emp_addEmpleado(lista,PERSONAL,&id,nombre,apellido,salario,sector))
             {
-                printf("carga exitosa");
+                printf("\ncarga exitosa");
                 contadorAlta++;
             }else{
                     printf("error de carga");
