@@ -27,7 +27,7 @@ int controller_loadFromText(char* path, LinkedList* pArrayListEmployee)
                 retorno = 0;
             }
         }
-        fclose(fAux);
+        //fclose(fAux);
     }
     return retorno;
 }
