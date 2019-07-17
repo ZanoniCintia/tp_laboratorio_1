@@ -1,0 +1,18 @@
+int controller_loadFromText(char* path , LinkedList* pArrayListEmployee);
+//int controller_loadFromBinary(char* path , LinkedList* pArrayListEmployee);
+//int controller_addEmployee(LinkedList* pArrayListEmployee);
+//int controller_editEmployee(LinkedList* pArrayListEmployee);
+//int controller_removeEmployee(LinkedList* pArrayListEmployee);
+int controller_ListLLamadas(LinkedList* pArrayListLLamadas);
+//int controller_sortEmployee(LinkedList* pArrayListEmployee);
+int controller_saveAsText(char* path , LinkedList* pArrayListLLamadas);
+//int controller_saveAsBinary(char* path , LinkedList* pArrayListEmployee);
+int idMaxArray(LinkedList* pArrayLLamadas);
+int controller_problemas(void* p);
+int problema1(void* p);
+int problema2(void* p);
+int problema3(void* p);
+int problema4(void* p);
+int problema5(void* p);
+//int controller_aumentoVeintePorcientoSueldos(void* p);
+//int controller_menosDeCienHoras(void* p);

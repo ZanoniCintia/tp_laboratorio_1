@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1563325305 source:/home/cintia/zanoni/proyectos/segundoparcial/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"llamadas.h"
+	"parser.h"
+	"validaciones.h"
+
+1562811800 /home/cintia/zanoni/proyectos/segundoparcial/LinkedList.h
+
+1563216968 /home/cintia/zanoni/proyectos/segundoparcial/llamadas.h
+
+1563218152 /home/cintia/zanoni/proyectos/segundoparcial/parser.h
+
+1563215200 /home/cintia/zanoni/proyectos/segundoparcial/validaciones.h
+
+1563211984 source:/home/cintia/zanoni/proyectos/segundoparcial/funciones.c
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1562811800 source:/home/cintia/zanoni/proyectos/segundoparcial/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1563276987 source:/home/cintia/zanoni/proyectos/segundoparcial/llamadas.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"llamadas.h"
+	"validaciones.h"
+	"funciones.h"
+
+1562807633 /home/cintia/zanoni/proyectos/segundoparcial/funciones.h
+
+1563309159 source:/home/cintia/zanoni/proyectos/segundoparcial/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"llamadas.h"
+
+1563214763 source:/home/cintia/zanoni/proyectos/segundoparcial/validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1563332715 source:/home/cintia/zanoni/proyectos/segundoparcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"llamadas.h"
+	"funciones.h"
+	"validaciones.h"
+
+1563325759 /home/cintia/zanoni/proyectos/segundoparcial/Controller.h
+
