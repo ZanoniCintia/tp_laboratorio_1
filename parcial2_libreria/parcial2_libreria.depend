@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1563466298 source:/home/cintia/zanoni/proyectos/parcial2_libreria/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"libros.h"
+	"parser.h"
+	"validaciones.h"
+
+1563381661 /home/cintia/zanoni/proyectos/parcial2_libreria/LinkedList.h
+
+1563460647 /home/cintia/zanoni/proyectos/parcial2_libreria/libros.h
+
+1563388481 /home/cintia/zanoni/proyectos/parcial2_libreria/parser.h
+
+1563381661 /home/cintia/zanoni/proyectos/parcial2_libreria/validaciones.h
+
+1563381661 source:/home/cintia/zanoni/proyectos/parcial2_libreria/funciones.c
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1563460830 source:/home/cintia/zanoni/proyectos/parcial2_libreria/libros.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"libros.h"
+	"validaciones.h"
+	"funciones.h"
+
+1563381661 /home/cintia/zanoni/proyectos/parcial2_libreria/funciones.h
+
+1563381661 source:/home/cintia/zanoni/proyectos/parcial2_libreria/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1563387406 source:/home/cintia/zanoni/proyectos/parcial2_libreria/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"libros.h"
+
+1563381661 source:/home/cintia/zanoni/proyectos/parcial2_libreria/validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1563466135 source:/home/cintia/zanoni/proyectos/parcial2_libreria/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"libros.h"
+	"parser.h"
+	"validaciones.h"
+	"Controller.h"
+
+1563466032 /home/cintia/zanoni/proyectos/parcial2_libreria/Controller.h
+
