@@ -185,46 +185,46 @@ int controller_ListLibros(LinkedList* pArrayListLibros)
                 {
                 case 1:
 
-                    printf("%d",id);
-                    printf("%s",autor);
-                    printf("%s",titulo);
-                    printf ("%2.f",precio);
-                    printf("PLANETA");
+                    printf("%d --",id);
+                    printf("%s --",autor);
+                    printf("%s --",titulo);
+                    printf ("%2.f --",precio);
+                    printf("PLANETA\n\n");
                     break;
                 case 2:
-                    printf("%d",id);
-                    printf("%s",autor);
-                    printf("%s",titulo);
-                    printf ("%2.f",precio);
-                    printf("SIGLO XXI EDITORES");
+                    printf("%d --",id);
+                    printf("%s --",autor);
+                    printf("%s --",titulo);
+                    printf ("%2.f --",precio);
+                    printf("SIGLO XXI EDITORES\n\n");
                     break;
                 case 3:
-                    printf("%d",id);
-                    printf("%s",autor);
-                    printf("%s",titulo);
-                    printf ("%2.f",precio);
-                    printf("PEARSON");
+                    printf("%d --",id);
+                    printf("%s --",autor);
+                    printf("%s --",titulo);
+                    printf ("%2.f --",precio);
+                    printf("PEARSON\n\n");
                     break;
                 case 4:
-                    printf("%d",id);
-                    printf("%s",autor);
-                    printf("%s",titulo);
-                    printf ("%2.f",precio);
-                    printf("MINOTAURO");
+                    printf("%d --",id);
+                    printf("%s --",autor);
+                    printf("%s --",titulo);
+                    printf ("%2.f --",precio);
+                    printf("MINOTAURO\n\n");
                     break;
                 case 5:
-                    printf("%d",id);
-                    printf("%s",autor);
-                    printf("%s",titulo);
-                    printf ("%2.f",precio);
-                    printf("SALAMANDRA");
+                    printf("%d --",id);
+                    printf("%s --",autor);
+                    printf("%s --",titulo);
+                    printf ("%2.f --",precio);
+                    printf("SALAMANDRA\n\n");
                     break;
                 case 6:
-                    printf("%d",id);
-                    printf("%s",autor);
-                    printf("%s",titulo);
-                    printf ("%.2f",precio);
-                    printf("PENGUIN BOOKS");
+                    printf("%d --",id);
+                    printf("%s --",autor);
+                    printf("%s --",titulo);
+                    printf ("%.2f --",precio);
+                    printf("PENGUIN BOOKS\n\n");
                     break;
                 }
 
@@ -435,7 +435,10 @@ int controller_descuentoVeintePorciento(void* p)
         if(editorialId==1)
         {
             precio -= ( precio * 20)/100;
-        }
+        }else if(editorialId==2)
+            {
+                 precio -= ( precio * 10)/100;
+            }
         libros_setPrecio((eLibros*)p,precio);
      }
 
@@ -486,7 +489,7 @@ int controller_sortLibros(LinkedList* pArrayListLibros)
     int retorno = -1;
     if(pArrayListLibros != NULL)
     {
-        ll_sort(pArrayListLibros,controller_CriterioOrdenAscendente,0);
+        ll_sort(pArrayListLibros,controller_CriterioOrdenAscendente,1);
         retorno = 0;
     }
     return retorno;

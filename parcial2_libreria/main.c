@@ -19,7 +19,7 @@ int main()
         //getInt("ingrese una opcion: ","ingrese una opcion valida",1,5,3,&option);
                                                                               //controller_loadFromText("data.csv",listaVenta);
      do{
-        getEntero("\n1-Cargar archivo\n2-Ordenar lista por ID editorial\n3-Generar archivo de libros con descuento\n4-Salir\n","error",1,4,1,&option);
+        getEntero("\n1-Cargar archivo\n2-Ordenar lista por ID editorial\n3-Generar archivo de libros con descuento\n4-Listar\n5-Salir\n","error",1,5,1,&option);
         switch(option)
         {
             case 1:
@@ -32,12 +32,10 @@ int main()
                  //system("clear");
                 //ll_sort(listaLibros,controller_CriterioOrdenAscendente,0);
                 controller_sortLibros(listaLibros);
-
-
             break;
 
             case 3:
-                getEntero("Ingrese numero de editorial :\n1:PLANETA descuento 20% \n2:SIGLO XXI EDITORES descuento 10%\n","Error",1,2,3,&resultado);
+                /*getEntero("Ingrese numero de editorial :\n1:PLANETA descuento 20% \n2:SIGLO XXI EDITORES descuento 10%\n","Error",1,2,3,&resultado);
                 switch(resultado)
                 {
                     case 1:
@@ -50,16 +48,19 @@ int main()
                         controller_saveAsText("mapeado.csv",listaLibros);
                     break;
 
-                }
+                }*/
+                  ll_map(listaLibros,controller_descuentoVeintePorciento);
+                        controller_saveAsText("mapeado.csv",listaLibros);
                 //controller_saveAsText("mapeado.csv",auxLL);
             break;
 
             case 4:
+                controller_ListLibros(listaLibros);
             break;
         }
 
 
 
-    }while(option != 4);
+    }while(option != 5);
     return 0;
 }
