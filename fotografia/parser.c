@@ -17,6 +17,7 @@ int parser_VentasFromText(FILE* pFile , LinkedList* pArrayListVentas)
     char bufferId[4096];
     char bufferfecha[4096];
     char buffertipo[4096];
+    char buffercantidad[51];
     char bufferPrecio[4096];
     char buffercuit[4096];
     Venta* pVentas;
@@ -25,8 +26,8 @@ int parser_VentasFromText(FILE* pFile , LinkedList* pArrayListVentas)
 
         while(!feof(pFile))
         {
-            fscanf(pFile,"%[^;];%[^;];%[^;];%[^;];%[^\n]\n",bufferId,bufferfecha,buffertipo,bufferPrecio,buffercuit);
-            pVentas= Venta_newParametros(bufferId,bufferfecha,buffertipo,bufferPrecio,buffercuit);
+            fscanf(pFile,"%[^;];%[^;];%[^;];%[^;];%[^;];%[^\n]\n",bufferId,bufferfecha,buffertipo,buffercantidad,bufferPrecio,buffercuit);
+            pVentas= Venta_newParametros(bufferId,bufferfecha,buffertipo,buffercantidad,bufferPrecio,buffercuit);
             if(pVentas != NULL)
             {
                 ll_add(pArrayListVentas, pVentas);

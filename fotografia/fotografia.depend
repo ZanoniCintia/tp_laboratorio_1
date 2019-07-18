@@ -1,0 +1,123 @@
+# depslib dependency file v1.0
+1563473887 source:/home/cintia/zanoni/proyectos/fotografia/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"ventas.h"
+	"parser.h"
+	"validaciones.h"
+	"Controller.h"
+
+1563469490 /home/cintia/zanoni/proyectos/fotografia/LinkedList.h
+
+1563468433 /home/cintia/zanoni/proyectos/fotografia/ventas.h
+
+1563469860 /home/cintia/zanoni/proyectos/fotografia/parser.h
+
+1563381661 /home/cintia/zanoni/proyectos/fotografia/validaciones.h
+
+1563472736 /home/cintia/zanoni/proyectos/fotografia/Controller.h
+
+1563381661 source:/home/cintia/zanoni/proyectos/fotografia/funciones.c
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1563469490 source:/home/cintia/zanoni/proyectos/fotografia/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1563474029 source:/home/cintia/zanoni/proyectos/fotografia/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"ventas.h"
+	"parser.h"
+	"validaciones.h"
+	"Controller.h"
+
+1563473792 source:/home/cintia/zanoni/proyectos/fotografia/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"ventas.h"
+
+1563381661 source:/home/cintia/zanoni/proyectos/fotografia/validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1563473750 source:/home/cintia/zanoni/proyectos/fotografia/ventas.c
+	"ventas.h"
+	"validaciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1563475896 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"ventas.h"
+	"parser.h"
+	"validaciones.h"
+	"Controller.h"
+
+1563469490 /home/cintia/tareas/tp_laboratorio_1/fotografia/LinkedList.h
+
+1563468433 /home/cintia/tareas/tp_laboratorio_1/fotografia/ventas.h
+
+1563469860 /home/cintia/tareas/tp_laboratorio_1/fotografia/parser.h
+
+1563381661 /home/cintia/tareas/tp_laboratorio_1/fotografia/validaciones.h
+
+1563472736 /home/cintia/tareas/tp_laboratorio_1/fotografia/Controller.h
+
+1563381661 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/funciones.c
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1563469490 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1563474029 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"ventas.h"
+	"parser.h"
+	"validaciones.h"
+	"Controller.h"
+
+1563473792 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"ventas.h"
+
+1563381661 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1563473750 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/ventas.c
+	"ventas.h"
+	"validaciones.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+

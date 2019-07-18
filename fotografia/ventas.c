@@ -33,7 +33,7 @@ Venta* Venta_newParametros(char* idStr,char * fecha, char* tipo,char* cantidad, 
                || Venta_setImporte(pAuxVenta,atof(importe))
                || Venta_setCuit(pAuxVenta,cuit))
             {
-                libros_delete(pAuxVenta);
+                Venta_delete(pAuxVenta);
 
 
             }else{
@@ -41,7 +41,7 @@ Venta* Venta_newParametros(char* idStr,char * fecha, char* tipo,char* cantidad, 
             }
        }
 
-
+}
     return retorno;
 }
 
