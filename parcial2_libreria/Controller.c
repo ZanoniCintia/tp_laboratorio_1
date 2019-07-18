@@ -426,34 +426,35 @@ int controller_saveAsText(char* path, LinkedList* pArrayListLibros)
 int controller_descuentoVeintePorciento(void* p)
 {
     float precio;
-    //int editorialId;
+    int editorialId;
      if(p!=NULL)
     {
 
         libros_getPrecio((eLibros*)p,&precio);
-        //libros_getEditorialId(p,&editorialId);
-
-        precio -= ( precio * 20)/100;
-
-
-       libros_setPrecio((eLibros*)p,precio);
+        libros_getEditorialId(p,&editorialId);
+        if(editorialId==1)
+        {
+            precio -= ( precio * 20)/100;
+        }
+        libros_setPrecio((eLibros*)p,precio);
      }
+
     return 1;
 }
 int controller_descuentoDiezPorciento(void*p)
 {
     float precio;
-    //int editorialId;
+    int editorialId;
      if(p!=NULL)
     {
 
         libros_getPrecio((eLibros*)p,&precio);
-        //libros_getEditorialId(p,&editorialId);
-
-        precio -= ( precio * 10)/100;
-
-
-       libros_setPrecio((eLibros*)p,precio);
+        libros_getEditorialId(p,&editorialId);
+        if(editorialId==2)
+        {
+            precio -= ( precio * 10)/100;
+        }
+        libros_setPrecio((eLibros*)p,precio);
      }
     return 1;
 }
