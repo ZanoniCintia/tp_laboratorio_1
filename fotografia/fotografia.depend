@@ -60,7 +60,7 @@
 	<stdio.h>
 	<stdlib.h>
 
-1563475896 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/Controller.c
+1563477141 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/Controller.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -78,7 +78,7 @@
 
 1563381661 /home/cintia/tareas/tp_laboratorio_1/fotografia/validaciones.h
 
-1563472736 /home/cintia/tareas/tp_laboratorio_1/fotografia/Controller.h
+1563477019 /home/cintia/tareas/tp_laboratorio_1/fotografia/Controller.h
 
 1563381661 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/funciones.c
 	"validaciones.h"
@@ -92,7 +92,7 @@
 	<string.h>
 	"LinkedList.h"
 
-1563474029 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/main.c
+1563477141 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -102,7 +102,7 @@
 	"validaciones.h"
 	"Controller.h"
 
-1563473792 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/parser.c
+1563477287 source:/home/cintia/tareas/tp_laboratorio_1/fotografia/parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
